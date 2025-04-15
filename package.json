@@ -1,0 +1,27 @@
+{
+  "name": "fevm-starter",
+  "version": "1.0.0",
+  "description": "Starter project for deploying Solidity contracts to FEVM",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network calibration",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19",
+    "hardhat-deploy": "^1.0.2",
+    "react-scripts": "^5.0.1"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^3.15.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "framer-motion": "^12.6.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
