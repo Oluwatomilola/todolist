@@ -1,4 +1,4 @@
-# Todo List dApp
+# Todolist dApp
 
 A decentralized application (dApp) built with React and ethers.js that allows users to create and manage tasks on the Filecoin Calibration testnet.
 
